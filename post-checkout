@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 echo "You are HACKED"
 
+touch some-malicious-file
+echo "CREATED malware!!"
+
+ls -al
